@@ -358,7 +358,7 @@ function makeid(length) {
 // Listening Port - 8080
 var server = app.listen(process.env.PORT || 8000, function() {
   var port = server.address().port;
-  console.log("Express is working on ort " + port);
+  console.log("Express is working on port " + port);
 });
 
 // 404 Error Handling
